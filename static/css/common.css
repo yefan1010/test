@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+body {
+  margin: 0 auto;
+  background: #fbfbfb;
+  font-family: "Microsoft YaHei", "Arial";
+  font-size: 13px;
+  color: #383838;
+  position: relative;
+}
+
+html {
+  padding: 0;
+  height: 0;
+  overflow-y: scroll;
+}
+
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+.lf {
+  float: left;
+}
+
+.rt {
+  float: right;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  font-family: "Microsoft YaHei";
+}
+
+a {
+  color: #383838;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+.link {
+  display: block;
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+ul,
+li,
+dl,
+dt,
+dd,
+ol {
+  display: block;
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+}
+
+.clear-fix:after,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
